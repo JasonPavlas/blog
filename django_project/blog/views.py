@@ -29,6 +29,10 @@ class PostDetailView(DetailView):
 class PostCreateView(CreateView):
     model = Post
     fields = ['title', 'content']
+
+    ##prediction
+    ###I think we will add a message in here for sucess
+    ###I think we will return a redirct to /home/
     
     def form_valid(self, form):
         form.instance.author = self.request.user
