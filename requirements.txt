@@ -1,0 +1,7 @@
+distlib==0.3.6
+django-shortcuts==1.6
+filelock==3.8.0
+numpy==1.23.2
+platformdirs==2.5.2
+pygame==2.1.2
+virtualenv==20.16.5
